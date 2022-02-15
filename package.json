@@ -1,12 +1,13 @@
 {
   "name": "backendpfe",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js" ,
+    "start:dev" : "nodemon server.js"  
   },
-  "author": "",
+  "author": "meriem Chelly",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
