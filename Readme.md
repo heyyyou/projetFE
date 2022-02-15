@@ -1,19 +1,19 @@
 # git commands
-### pour mettre a jour le remote branch :
+### pour mettre a jour la remote branche :
 
 git add . 
 
 git commit -m "nom de commit" 
 
 git push 
-### pour creer un branch ( a partir de branch master):
+### pour creer une branche ( a partir de branche master):
 
 git branch --->master 
 
 git checkout -b nom-branch  [( git status --> vide)]
 
 git push  
-### pour merger un branch 
+### pour merger une branche 
 "use case" : branch x -----> matser 
 [git status ( branch x --> vide )]
 
